@@ -52,9 +52,25 @@ int [] numbers = new int [3];
 System.out.println(Arrays.toString(numbers))
 }
 
+Two kinds of dynamic arrays in Java
+Vector-grows by 100% synchronized only a single thread **not good?**
+ArrayList- grows by 50%
 
-LinkedList:
 
+Linked Lists:
+Each node points to the next one
+Head ----  Tail
+
+Lookup by value O(n)
+By Index O(n) not like array they can be anywhere
+Insert at the end O(1)
+Insert at the beginning O(1)
+In the middle O(n)
+
+...Deleting
+From the beginning O(1)
+From the end O(n)
+From the middle O(n)
 
 
 
