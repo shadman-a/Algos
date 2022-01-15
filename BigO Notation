@@ -1,0 +1,60 @@
+BigO Notation 
+
+array[0] are costly
+
+LinkedList is not costly 
+
+
+Constant time: 
+O(1)
+
+Constant time is not a big deal 
+
+i.e a print statment is O(1)
+
+Linear time:
+O(n) 
+
+Linear time a loop, if theres two loops O(n + n) which is the same as O(n) still linear because approx
+
+loop is O(n)
+
+Quadratic time:
+O(n^2)
+
+Nested loop is O(n^2)
+Quadratic time gets slower with larger times
+The more loops that are nested the slower the code gets 
+
+Logaritmic time: THE BEST KIND
+O(log^n)
+Logarithmic curve stops getting slower at some point (asymptote)
+
+Binary search
+
+Exponentional time: 
+O(2^n) the worst kind 
+opposite of logarithmic 
+
+
+Arrays:
+have fixed size in java 
+
+Lookup: by index is the best O(1)
+Insert: O(n)
+Delete: O(n)
+Making an array 
+
+import java.util.Arrays;
+public class Main {
+public static void main (String [] args) {
+int [] numbers = new int [3];
+System.out.println(Arrays.toString(numbers))
+}
+
+
+LinkedList:
+
+
+
+
