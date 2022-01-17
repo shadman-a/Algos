@@ -1,10 +1,28 @@
 package dev.shadmanahmed;
 
-import java.util.LinkedList;
-
 public class Main {
 
     public static void main(String[] args) {
+
+        Stack nums = new Stack();
+        nums.push(10);
+        nums.push(20);
+        nums.push(30);
+
+        nums.pop();
+
+        nums.show();
+
+//        var x = new java.util.LinkedList<String>();
+//        x.removeFirst();
+//
+//        var list = new LinkedList();
+//        list.addLast(10);
+//        list.addLast(20);
+//        list.addLast(30);
+//        list.deleteFirst();
+//        System.out.println(list.contains(-100));
+
 //        Array numbers = new Array(3);
 //        numbers.insert(10);
 //        numbers.insert(20);
@@ -24,18 +42,18 @@ public class Main {
 //        list.contains(20);
 //        list.size();
 //        list.toArray();
-        LinkedList list = new LinkedList();
-        //can be any dataType or can be defined
-        list.addLast(10);
-        list.addLast(20);
-        list.addLast(30);
-        list.addFirst("hello");
-        System.out.println(list.indexOf(10));
-        System.out.println(list.size());
-        var array = list.toArray();
-        System.out.println(array);
-
-
-        System.out.println(list);
+//        LinkedList list = new LinkedList();
+//        //can be any dataType or can be defined
+//        list.addLast(10);
+//        list.addLast(20);
+//        list.addLast(30);
+//        list.addFirst("hello");
+//        System.out.println(list.indexOf(10));
+//        System.out.println(list.size());
+//        var array = list.toArray();
+//        System.out.println(array);
+//
+//
+//        System.out.println(list);
     }
 }

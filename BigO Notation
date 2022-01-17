@@ -72,5 +72,25 @@ From the beginning O(1)
 From the end O(n)
 From the middle O(n)
 
+----------------Telusko
+Primitive data types
+v.
+using classes to make our own data type
+
+Abstract data types (they are concepts)
+List-
+Stack- lifo
+Queue- fifo
+Map- key value pair
 
 
+Stack:
+add - push
+delete - pop
+find - peek
+
+LIFO
+-one entry and exit point
+
+Tree:
+Like a linked list but a node can have multiple references
