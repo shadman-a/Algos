@@ -4,22 +4,39 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Stack nums = new Stack();
-        nums.push(10);
-        nums.push(20);
-        nums.push(30);
+        var stacked = new Stack();
+        stacked.push(5);
+        stacked.push(6);
+        stacked.push(7);
+        stacked.push(8);
+        stacked.push(9);
 
-        nums.pop();
+        System.out.println(stacked.pop());
 
-        nums.show();
+//        System.out.println(stacked.peek());
 
-//        var x = new java.util.LinkedList<String>();
-//        x.removeFirst();
+        stacked.show();
+//        System.out.println(stacked.isEmpty());
+
+
+//        String str = "(<34>)";
+//        var balancer = new BalancedExp();
 //
+//        System.out.println(balancer.isBalanced(str));
+
+
+//        String str = "abcdef";
+//        var strrev = new StringReverser();
+//        System.out.println(strrev.reverse(str));
+
 //        var list = new LinkedList();
-//        list.addLast(10);
-//        list.addLast(20);
-//        list.addLast(30);
+//        for (int i = 10; i < 20; i++) {
+//            list.addLast(i);
+//        }
+//
+//        System.out.println(list.getKthFromTheEnd(30));
+
+//        list.reverse();
 //        list.deleteFirst();
 //        System.out.println(list.contains(-100));
 

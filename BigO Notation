@@ -67,30 +67,22 @@ Insert at the end O(1)
 Insert at the beginning O(1)
 In the middle O(n)
 
-...Deleting
+Deleting
 From the beginning O(1)
 From the end O(n)
 From the middle O(n)
 
-----------------Telusko
-Primitive data types
-v.
-using classes to make our own data type
+Type of linked list:
+- Singly: contains reference only for next node
+- doubly: contains a references for both prev and next
 
-Abstract data types (they are concepts)
-List-
-Stack- lifo
-Queue- fifo
-Map- key value pair
-
+circular: the tail links to head
 
 Stack:
-add - push
-delete - pop
-find - peek
+-peek
+-push
+-pop
+-empty?
+Stacks are used to not store data and retrieve
 
-LIFO
--one entry and exit point
-
-Tree:
-Like a linked list but a node can have multiple references
+Doing someting in reverse is where to use stack.

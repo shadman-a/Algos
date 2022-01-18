@@ -90,4 +90,49 @@ public class LinkedList {
         }
         return -1;
     }
+
+    public void reverse(){
+        if (isEmpty()){
+            return;
+        }
+
+        var current = first.next;
+        var previous = first;
+        while (current != null) {
+            var next = current.next;
+            current.next = previous;
+            previous = current;
+            current = next;
+        }
+
+        last = first;
+        last.next = null;
+        first = previous;
+    }
+
+    public int getKthFromTheEnd(int k) {
+        var a = first;
+        var b = first;
+
+        if (isEmpty()){
+            throw new IllegalStateException();
+        }
+
+        int distance = k - 1;
+        for (int i = distance; i > 0; i--) {
+            b = b.next;
+            if (b == null) {
+                throw new IllegalArgumentException();
+            }
+        }
+        while (b != last){
+            a = a.next;
+            b = b.next;
+        }
+
+        return a.value;
+
+
+    }
+
 }
