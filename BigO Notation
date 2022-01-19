@@ -10,7 +10,7 @@ O(1)
 
 Constant time is not a big deal 
 
-i.e a print statment is O(1)
+i.e a print statement is O(1)
 
 Linear time:
 O(n) 
@@ -26,7 +26,7 @@ Nested loop is O(n^2)
 Quadratic time gets slower with larger times
 The more loops that are nested the slower the code gets 
 
-Logaritmic time: THE BEST KIND
+Logarithmic time: THE BEST KIND
 O(log^n)
 Logarithmic curve stops getting slower at some point (asymptote)
 
@@ -85,4 +85,35 @@ Stack:
 -empty?
 Stacks are used to not store data and retrieve
 
-Doing someting in reverse is where to use stack.
+**Doing something in reverse is where to use stack.**
+
+Queues - not a class but a interface
+-First in first out
+-It's like a line of people
+
+Uses:
+a resource has to be shared by a lot of people
+- printers
+- operating systems
+- Web servers
+
+Operations:
+enqueue: add to end of queue
+dequeue: remove from beginning of queue
+peek: see first item
+isEmpty:
+isFull:
+all O(1) Linear
+
+Implements the queue interface:
+ArrayDeque
+-double ended queue
+add and offer
+poll and remove
+
+peek and element
+
+
+
+LinkedList
+

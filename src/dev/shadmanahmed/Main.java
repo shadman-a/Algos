@@ -1,21 +1,52 @@
 package dev.shadmanahmed;
 
+import java.util.Arrays;
+import java.util.List;
+
 public class Main {
 
     public static void main(String[] args) {
 
-        var stacked = new Stack();
-        stacked.push(5);
-        stacked.push(6);
-        stacked.push(7);
-        stacked.push(8);
-        stacked.push(9);
+        QueueWith2Stacks queue = new QueueWith2Stacks();
 
-        System.out.println(stacked.pop());
+        queue.enqueue(1);
+        queue.enqueue(2);
+        queue.enqueue(3);
+        queue.enqueue(4);
+        System.out.println(queue.dequeue());
 
-//        System.out.println(stacked.peek());
 
-        stacked.show();
+        List<Integer> messages = Arrays.asList(1,2,3,4);
+        messages.sort(messages, new SortById());
+
+//       ArrayQueue queue = new ArrayQueue(5);
+//        queue.enqueue(2);
+//        queue.enqueue(3);
+//        queue.enqueue(4);
+//        System.out.println(queue.dequeue());
+//        System.out.println(queue);
+
+
+
+//        Queue<Integer> queue = new ArrayDeque<>();
+//        for (int i = 0; i < 10; i++) {
+//            queue.add(i);
+//        }
+//        System.out.println(queue);
+//        System.out.println(ReverseQueue.reverse(queue));
+//
+//        var stacked = new Stack();
+//        stacked.push(5);
+//        stacked.push(6);
+//        stacked.push(7);
+//        stacked.push(8);
+//        stacked.push(9);
+//
+//        System.out.println(stacked.pop());
+//
+////        System.out.println(stacked.peek());
+//
+//        stacked.show();
 //        System.out.println(stacked.isEmpty());
 
 
