@@ -1,23 +1,54 @@
 package dev.shadmanahmed;
 
-import java.util.Arrays;
-import java.util.List;
-
 public class Main {
 
     public static void main(String[] args) {
 
-        QueueWith2Stacks queue = new QueueWith2Stacks();
+        HashTable hashTable = new HashTable();
+        hashTable.put(1,"hello");
+        hashTable.put(2,"my");
+        hashTable.put(3,"name");
+        hashTable.put(4,"is");
+        hashTable.put(6,"not");
+        hashTable.put(11,"it");
+        var a = hashTable.get(1);
+        System.out.println(a);
 
-        queue.enqueue(1);
-        queue.enqueue(2);
-        queue.enqueue(3);
-        queue.enqueue(4);
-        System.out.println(queue.dequeue());
+//
+//        var firstRepeatedChar = new FirstRepeatedChar();
+//
+//        System.out.println(firstRepeatedChar.firstRepeat("green apple"));
 
+//        Set<Integer> set = new HashSet<>();
+//        int[] nums = {1,2,2,3,4,5,6,3,7,10};
+//        for (var number: nums) {
+//            set.add(number);
+//        }
+//        System.out.println(set);
 
-        List<Integer> messages = Arrays.asList(1,2,3,4);
-        messages.sort(messages, new SortById());
+//        var nonRepeat = new NonRepeatedChar();
+//        System.out.println(nonRepeat.firstNonRepeat("a green apple"));
+
+//        Map<Integer, String> map = new HashMap<>();
+//        map.put(1, "mosh");
+//        map.put(2, "john");
+//        map.put(3, "mart");
+//        map.put(4, "damn");
+//
+//        map.remove(3);
+//        System.out.println(map.get(4));
+//
+//        for (var item:
+//             map.entrySet()) {
+//            System.out.println(item.getValue());
+//        }
+//        QueueWith2Stacks queue = new QueueWith2Stacks();
+//
+//        queue.enqueue(1);
+//        queue.enqueue(2);
+//        queue.enqueue(3);
+//        queue.enqueue(4);
+//        System.out.println(queue.dequeue());
 
 //       ArrayQueue queue = new ArrayQueue(5);
 //        queue.enqueue(2);

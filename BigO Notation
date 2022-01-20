@@ -115,5 +115,44 @@ peek and element
 
 
 
-LinkedList
+Hash Tables:
+Super fast lookups
+- spell checkers
+- dictionaries
+- compilers
 
+Hashmap -deterministic
+- key value pairs
+
+operations:
+
+insert
+lookup
+delete
+
+containsKey is O(1)
+but
+containsValue is O(n)
+
+
+
+Sets:
+only has keys:
+useful to remove duplicates
+
+
+.hashCode can make a has out of anything
+
+Collisions
+- two keys generated has the same key
+
+Chaining
+- saving multiple values at the same key
+Open Addressing
+- if a key value pair is taken the table need to be probed to find an empty slot (Linear Probing).
+    (hash(key) +i) % table_size   next to each other and form a cluster
+    - Quadratic Probing- (hash(key) + i^2) % table_size   spaces it out and prevents clusters   can cause an infinite loop
+
+Double hashing
+hash2(key) = prime - (key%prime)
+(hash1(key) + i * hash2(key))% table_size
