@@ -4,15 +4,23 @@ public class Main {
 
     public static void main(String[] args) {
 
-        HashTable hashTable = new HashTable();
-        hashTable.put(1,"hello");
-        hashTable.put(2,"my");
-        hashTable.put(3,"name");
-        hashTable.put(4,"is");
-        hashTable.put(6,"not");
-        hashTable.put(11,"it");
-        var a = hashTable.get(1);
-        System.out.println(a);
+        Tree tree = new Tree();
+        tree.insert(7);
+        tree.insert(3);
+        tree.insert(9);
+        tree.insert(4);
+        tree.insert(10);
+        System.out.println(tree.find(11));
+
+//        HashTable hashTable = new HashTable();
+//        hashTable.put(1,"hello");
+//        hashTable.put(2,"my");
+//        hashTable.put(3,"name");
+//        hashTable.put(4,"is");
+//        hashTable.put(6,"not");
+//        hashTable.put(11,"it");
+//        var a = hashTable.get(1);
+//        System.out.println(a);
 
 //
 //        var firstRepeatedChar = new FirstRepeatedChar();
