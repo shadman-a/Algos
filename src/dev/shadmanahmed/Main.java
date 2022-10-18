@@ -4,13 +4,14 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Tree tree = new Tree();
-        tree.insert(7);
-        tree.insert(3);
-        tree.insert(9);
-        tree.insert(4);
-        tree.insert(10);
-        System.out.println(tree.find(11));
+//        Tree tree = new Tree();
+//        tree.insert(7);
+//        tree.insert(3);
+//        tree.insert(9);
+//        tree.insert(4);
+//        tree.insert(10);
+//        System.out.println(tree.height());
+//        System.out.println(tree.find(11));
 
 //        HashTable hashTable = new HashTable();
 //        hashTable.put(1,"hello");
